@@ -53,7 +53,7 @@ body {
     font-family: 'Parisienne', cursive;
     letter-spacing: 1px;
     font-weight: bold;
-    font-size: 1.4em;
+    font-size: 1.8vw;
     margin-top: 8px;
 }
 
@@ -173,10 +173,31 @@ h3 {
     right: 30px;
     border-radius: 30%;
     width: auto;
-    height: 15%;
+    height: 10vw;
 }
 
 .guest:hover {
     background-color: #955306;
     transform: scale(1.1)
 }
+
+
+
+/************* Ipad and smartphone ******************/
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 1000px) {
+
+    .dropdown-toggle,
+    .nav-link {
+        font-size: 3vw;
+    }
+
+    .be-our-guest {
+        width: 50px;
+    }
+
+    .guest {
+        position: fixed;
+        top: 25%;
+        right: 15px;
+    }
