@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+.navbar-brand {
+    color: white;
+    font-size: 2vw;
+    font-family: 'WaltographRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.8em;
+
+}
+
+.navbar {
+    background-color: #DF8825;
+    border: 1px solid black;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+
+
+
+.collapse {
+    font-size: 1.2vw;
+    padding-right: 0px;
+    content: 0px;
+    display: flex;
+    justify-content: end;
+}
+
+.navbar-collapse {
+    color: white;
+    display: flex;
+    justify-content: end;
+    z-index: 1;
+}
+
+
+.dropdown-toggle,
+.nav-link {
+    color: white;
+    font-family: 'Parisienne', cursive;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 1.4em;
+    margin-top: 8px;
+}
+
+.dropdown-menu {
+    width: 300px;
+    background-color: #DF8825;
+    border: 1px solid white;
+    border-radius: 3%;
+    position: absolute;
+    right: 0px;
+    text-align: right;
+    justify-content: end;
+}
+
+.dropdown-item {
+    color: white;
+    font-family: 'Parisienne', cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.5em;
+    padding-right: 10px;
+    width: auto;
+    letter-spacing: 1px;
+}
+
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #955306;
+}
+
+
+
+.dropdown-item:hover {
+    background-color: #BC6809;
+    color: white;
+}
+
+p {
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Parisienne', cursive;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+
+.container-photo {
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.photo-wedding {
+    margin-top: 95px;
+    opacity: 0.85;
+    z-index: -1;
+}
+
+
+
+
+.main-text {
+    font-size: 8vw;
+    font-family: 'Parisienne', cursive;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.second-text {
+    font-size: 3.5vw;
+    font-family: 'Parisienne', cursive;
+    justify-content: center;
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    font-family: 'Parisienne', cursive;
+
+}
+
+h3 {
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+.guest {
+    background-color: #DF8825;
+    position: fixed;
+    bottom: 45px;
+    right: 30px;
+    border-radius: 30%;
+    width: auto;
+    height: 15%;
+}
+
+.guest:hover {
+    background-color: #955306;
+    transform: scale(1.1)
+}
