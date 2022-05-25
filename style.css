@@ -16,9 +16,11 @@ body {
     font-family: 'WaltographRegular';
     font-weight: normal;
     font-style: normal;
-    font-size: 1.8em;
 
 }
+
+
+
 
 .navbar {
     background-color: #DF8825;
@@ -26,6 +28,14 @@ body {
     position: fixed;
     width: 100%;
     z-index: 1;
+}
+
+
+
+
+.navbar-nav {
+    display: flex;
+    text-align: right;
 }
 
 
@@ -62,10 +72,7 @@ body {
     background-color: #DF8825;
     border: 1px solid white;
     border-radius: 3%;
-    position: absolute;
-    right: 0px;
     text-align: right;
-    justify-content: end;
 }
 
 .dropdown-item {
@@ -73,7 +80,7 @@ body {
     font-family: 'Parisienne', cursive;
     font-weight: bold;
     font-style: normal;
-    font-size: 1.5em;
+    font-size: 1.5vw;
     padding-right: 10px;
     width: auto;
     letter-spacing: 1px;
@@ -187,8 +194,16 @@ h3 {
 
 @media only screen and (min-device-width: 300px) and (max-device-width: 1000px) {
 
+    .navbar-brand {
+        font-size: 4vw;
+    }
+
     .dropdown-toggle,
     .nav-link {
+        font-size: 4vw;
+    }
+
+    .dropdown-item {
         font-size: 3vw;
     }
 
