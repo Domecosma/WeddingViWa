@@ -12,7 +12,7 @@ body {
 
 .navbar-brand {
     color: white;
-    font-size: 2vw;
+    font-size: 3vw;
     font-family: 'WaltographRegular';
     font-weight: normal;
     font-style: normal;
@@ -143,6 +143,7 @@ p {
 }
 
 .second-text {
+    font-weight: bold;
     font-size: 3.5vw;
     font-family: 'Parisienne', cursive;
     justify-content: center;
@@ -186,7 +187,7 @@ h3 {
     position: fixed;
     bottom: 5vh;
     right: 30px;
-    border: 3px dashed #955306;
+    border: 3px solid #955306;
     border-radius: 30%;
     width: 16vmin;
     height: 14vmin;
@@ -204,9 +205,23 @@ h3 {
 
 @media only screen and (min-device-width: 300px) and (max-device-width: 1000px) {
 
-    .navbar-brand {
-        font-size: 4vw;
+
+    .navbar {
+        height: 8vh;
     }
+
+    .navbar-brand {
+        font-size: 6vmin;
+        margin-bottom: 1vh;
+    }
+
+    .date {
+        margin-top: -8px;
+    }
+
+
+
+
 
     .dropdown-toggle,
     .nav-link {
@@ -216,4 +231,11 @@ h3 {
     .dropdown-item {
         font-size: 3vw;
     }
+
+    .photo-wedding {
+        margin-top: 73px;
+        opacity: 0.85;
+        z-index: -1;
+    }
+
 }
