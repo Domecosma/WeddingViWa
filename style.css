@@ -171,16 +171,20 @@ h3 {
 
 
 
+.be-our-guest {
+    width: 20vmin;
+    height: 20vmin;
 
+}
 
 .guest {
     background-color: #DF8825;
     position: fixed;
-    bottom: 45px;
+    bottom: 5vh;
     right: 30px;
     border-radius: 30%;
-    width: auto;
-    height: 10vw;
+    width: 20vmin;
+    height: 20vmin;
 }
 
 .guest:hover {
@@ -207,9 +211,7 @@ h3 {
         font-size: 3vw;
     }
 
-    .be-our-guest {
-        width: 50px;
-    }
+
 
     .guest {
         position: fixed;
