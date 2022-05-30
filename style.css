@@ -9,6 +9,9 @@ body {
     overflow-x: hidden;
 }
 
+.container-fluid {
+    height: auto;
+}
 
 .navbar-brand {
     color: white;
@@ -205,23 +208,9 @@ h3 {
 
 @media only screen and (min-device-width: 300px) and (max-device-width: 1000px) {
 
-
-    .navbar {
-        height: 8vh;
-    }
-
     .navbar-brand {
         font-size: 6vmin;
-        margin-bottom: 1vh;
     }
-
-    .date {
-        margin-top: -8px;
-    }
-
-
-
-
 
     .dropdown-toggle,
     .nav-link {
@@ -233,9 +222,7 @@ h3 {
     }
 
     .photo-wedding {
-        margin-top: 73px;
-        opacity: 0.85;
-        z-index: -1;
+        height: 25vh
     }
 
 }
