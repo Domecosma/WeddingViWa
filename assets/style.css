@@ -1,0 +1,332 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container-fluid {
+    height: auto;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 3vw;
+    font-family: 'WaltographRegular';
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.navbar-brand:hover {
+    color: #955306;
+}
+
+
+
+
+.navbar {
+    background-color: #DF8825;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+
+
+
+.navbar-nav {
+    display: flex;
+    text-align: right;
+}
+
+
+
+
+.collapse {
+    font-size: 1.2vw;
+    padding-right: 0px;
+    content: 0px;
+    display: flex;
+    justify-content: end;
+}
+
+.navbar-collapse {
+    color: white;
+    display: flex;
+    justify-content: end;
+    z-index: 1;
+}
+
+
+.dropdown-toggle,
+.nav-link {
+    color: white;
+    font-family: 'Parisienne', cursive;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 1.8vw;
+    margin-top: 8px;
+}
+
+.dropdown-menu {
+    width: 300px;
+    background-color: #DF8825;
+    border: 1px solid white;
+    border-radius: 3%;
+    text-align: right;
+}
+
+.dropdown-item {
+    color: white;
+    font-family: 'Parisienne', cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.5vw;
+    padding-right: 10px;
+    width: auto;
+    letter-spacing: 1px;
+}
+
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #955306;
+}
+
+
+
+.dropdown-item:hover {
+    background-color: #BC6809;
+    color: white;
+}
+
+.date {
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Parisienne', cursive;
+    font-weight: bold;
+    padding-top: 25px;
+    z-index: 1;
+}
+
+
+.container-photo {
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.photo-wedding {
+    margin-top: 90px;
+    opacity: 0.85;
+}
+
+
+
+
+.main-text {
+    font-size: 8vw;
+    font-family: 'Parisienne', cursive;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.second-text {
+    color: white;
+    font-weight: bold;
+    font-size: 3.5vw;
+    font-family: 'Parisienne', cursive;
+    justify-content: center;
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    font-family: 'Parisienne', cursive;
+
+}
+
+h3 {
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+
+
+
+
+
+.be-our-guest {
+    width: 16vmin;
+    height: 14vmin;
+}
+
+.guest {
+    background-color: transparent;
+    position: fixed;
+    bottom: 5vh;
+    right: 30px;
+    border: 3px solid #955306;
+    border-radius: 30%;
+    width: 16vmin;
+    height: 14vmin;
+}
+
+.guest:hover {
+    background-color: #955306;
+    border: 1px solid black;
+
+}
+
+.container-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(223, 136, 37, 0.4);
+    border: 5px solid rgba(223, 136, 37, 0.4);
+}
+
+.main {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    border: 5px solid #DF8825;
+    background-color: white;
+    opacity: 0.8;
+}
+
+.description-text {
+    font-size: 2em;
+    font-family: 'Parisienne', cursive;
+    font-weight: bold;
+    padding: 15px 30px;
+    width: 70%;
+    margin: 0 auto;
+    color: #DF8825;
+    letter-spacing: 2px;
+}
+
+
+/************* Ipad and smartphone ******************/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+
+    .navbar-brand {
+        font-size: 1.4em;
+    }
+
+    .dropdown-toggle,
+    .nav-link {
+        font-size: 2.7em;
+    }
+
+    .dropdown-item {
+        font-size: 1.5em;
+    }
+
+    .date {
+        font-size: 2em;
+        margin: 0;
+        padding-top: 12px;
+    }
+
+    .photo-wedding {
+        margin-top: 70px;
+    }
+
+
+
+    .main {
+        width: 80%;
+    }
+
+
+
+    .description-text {
+        font-size: 1.3em;
+        width: 90%;
+    }
+
+    .guest {
+        background-color: transparent;
+        border: 3px solid #955306;
+        border-radius: 30%;
+        width: 16vmin;
+        height: 14vmin;
+    }
+
+}
+
+
+/*************** Only for Smartphone*************/
+
+@media screen and (max-width: 767px) {
+
+    .navbar-brand {
+        font-size: 6vmin;
+    }
+
+    .date {
+        font-size: 1.8em;
+        margin-bottom: 5px;
+        padding-top: 15px;
+
+    }
+
+    .nav-link {
+        font-size: 3.6em;
+    }
+
+
+    .nav-link,
+    .dropdown-toggle,
+    .show {
+        justify-content: end;
+        text-align: end;
+    }
+
+
+
+    .dropdown-item {
+        font-size: 1.4em;
+    }
+
+    .photo-wedding {
+        margin-top: 80px;
+    }
+
+    .main {
+        width: 80%;
+    }
+
+    .description-text {
+        font-size: 1em;
+        width: 100%;
+    }
+
+}
