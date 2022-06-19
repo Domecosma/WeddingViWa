@@ -303,13 +303,6 @@ h3 {
     }
 
 
-    .nav-link,
-    .dropdown-toggle,
-    .show {
-        justify-content: end;
-        text-align: end;
-    }
-
 
 
     .dropdown-item {
@@ -328,5 +321,28 @@ h3 {
         font-size: 1em;
         width: 100%;
     }
+
+}
+
+@media screen and (max-width: 370px) {
+    .navbar-brand {
+        font-size: 1.5em;
+    }
+
+    .date {
+        font-size: 1.5em;
+        margin-bottom: 5px;
+        padding-top: 15px;
+
+    }
+
+    .dropdown-item {
+        font-size: 1em;
+    }
+
+    .photo-wedding {
+        margin-top: 70px;
+    }
+
 
 }
