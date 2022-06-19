@@ -324,13 +324,13 @@ h3 {
 
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 390px) {
     .navbar-brand {
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 
     .date {
-        font-size: 1.5em;
+        font-size: 1.3em;
         margin-bottom: 5px;
         padding-top: 15px;
 
@@ -341,7 +341,7 @@ h3 {
     }
 
     .photo-wedding {
-        margin-top: 70px;
+        margin-top: 60px;
     }
 
 
