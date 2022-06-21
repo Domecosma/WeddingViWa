@@ -131,7 +131,18 @@ body {
     opacity: 0.85;
 }
 
+.container-flag {
+    margin-top: 5px;
+}
 
+.flag {
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.flag img {
+    width: 2em;
+}
 
 
 .main-text {
@@ -177,12 +188,11 @@ h3 {
 
 
 
-
-
 .be-our-guest {
     width: 16vmin;
     height: 14vmin;
 }
+
 
 .guest {
     background-color: transparent;
@@ -201,6 +211,7 @@ h3 {
 
 }
 
+
 .container-main {
     display: flex;
     align-items: center;
@@ -208,6 +219,7 @@ h3 {
     background-color: rgba(223, 136, 37, 0.4);
     border: 5px solid rgba(223, 136, 37, 0.4);
 }
+
 
 .main {
     width: 50%;
@@ -219,6 +231,7 @@ h3 {
     background-color: white;
     opacity: 0.8;
 }
+
 
 .description-text {
     font-size: 2em;
@@ -236,6 +249,8 @@ h3 {
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
 
+
+
     .navbar-brand {
         font-size: 1.4em;
     }
@@ -249,10 +264,20 @@ h3 {
         font-size: 1.5em;
     }
 
+
+
     .date {
         font-size: 2em;
         margin: 0;
         padding-top: 12px;
+    }
+
+    .dropdown-flag {
+        display: flex;
+    }
+
+    .flag img {
+        margin: 5px;
     }
 
     .photo-wedding {
@@ -287,15 +312,25 @@ h3 {
 
 @media screen and (max-width: 767px) {
 
+    .container-fluid {
+        font-size: 0.95em;
+    }
+
     .navbar-brand {
         font-size: 6vmin;
     }
 
+
     .date {
         font-size: 1.8em;
-        margin-bottom: 5px;
+        margin-bottom: 7px;
         padding-top: 15px;
 
+    }
+
+    .flag img {
+        width: 1.3em;
+        margin-top: 12px;
     }
 
     .nav-link {
@@ -303,6 +338,13 @@ h3 {
     }
 
 
+    .dropdown-flag {
+        display: flex;
+    }
+
+    .flag {
+        margin: 5px;
+    }
 
 
     .dropdown-item {
@@ -324,16 +366,33 @@ h3 {
 
 }
 
-@media screen and (max-width: 390px) {
+/************* screen max-width 390px***********/
+
+@media screen and (max-width: 391px) {
+
+    .container-fluid {
+        font-size: 0.87em;
+    }
+
     .navbar-brand {
         font-size: 1.3em;
     }
 
     .date {
+        margin-right: 2px;
         font-size: 1.3em;
         margin-bottom: 5px;
         padding-top: 15px;
 
+    }
+
+    .dropdown-flag {
+        display: flex;
+    }
+
+    .flag img {
+        width: 1.3em;
+        margin-top: 12px;
     }
 
     .dropdown-item {
